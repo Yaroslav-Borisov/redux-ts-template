@@ -22,7 +22,7 @@ export const fetchUsers = createAsyncThunk(
             return response.data
         } catch (error) {
             if (error instanceof Error) {
-                return thunkAPI.rejectWithValue('Не удалось загрузить...')
+                return thunkAPI.rejectWithValue(`${error.message}`)
             }
         }
     }

@@ -1,0 +1,39 @@
+{
+  "posts": [
+    {
+      "id": "4",
+      "title": "another title",
+      "body": "typicode"
+    },
+    {
+      "id": "5",
+      "title": "another title",
+      "body": "typicode"
+    },
+    {
+      "id": "7",
+      "title": "another title",
+      "body": "typicode"
+    },
+    {
+      "id": "8",
+      "title": "another title",
+      "body": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": null
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": null
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
